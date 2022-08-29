@@ -2,8 +2,9 @@
 string name = Console.ReadLine();
 Console.Write("ЗДРАВСТВУЙТЕ, ");
 Console.Write(name);
-Console.WriteLine("ВВЕДИТЕ ПЕРВОЕ ЧИСЛО");
-double first = Console.ReadLine();
+Console.WriteLine(", ВВЕДИТЕ ПЕРВОЕ ЧИСЛО");
+double first = Console.Read();
 Console.WriteLine("ВВЕДИТЕ ВТОРОЕ ЧИСЛО");
-double second = Console.ReadLine();
-Console.WriteLine(first + second);
+double second = Console.Read();
+double result = first + second;
+Console.Write(result);
