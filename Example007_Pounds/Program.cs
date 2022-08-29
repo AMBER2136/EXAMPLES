@@ -1,0 +1,15 @@
+﻿int a =1;
+int b =8 ;
+int c =11;
+int d =4;
+int e =23;
+int f =6;
+int max = a;
+if (a>max) max=a;
+if (b>max) max=b;
+if (c>max)max=c;
+if (d>max) max=d;
+if (e>max)max=e;
+if (f>max)max=f;
+Console.Write("НАИБОЛЬШИЙ ВЕС = ");
+Console.Write(max);
