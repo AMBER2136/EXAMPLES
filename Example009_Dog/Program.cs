@@ -4,26 +4,31 @@ double speedSecond = 1;
 double speedDog = 5;
 double time;
 int count = 0;
-string friend = "first";
+bool friend = false;
 
-
-while(distance < 10)
+while(distance > 10)
 {
-    if (friend == "first")
+    if (friend == true)
     {
         time = distance / (speedDog + speedSecond);
         distance = distance - time * (speedFirst + speedSecond);
-        friend = "second";
-        count=count+1;
+              
     }
-    if (friend == "second")
+    if (friend == false)
     {
         time = distance / (speedDog + speedFirst);
         distance = distance - time * (speedFirst + speedSecond);
-        friend = "first";
-        count=count+1;
+        
     }
-count=count+1;
+    if (friend==true)
+    {   
+        friend=false;
+    }
+    if (friend==false)
+    {
+        friend=true;
+    }     
+    count=count+=1;
 }
 Console.WriteLine(count);
 
