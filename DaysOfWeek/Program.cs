@@ -4,15 +4,34 @@ if(x>7)
 {
     Console.WriteLine("ЧИСЛО СЛИШКОМ ВЕЛИКО, ВВЕДИТЕ ЧИСЛО ОТ 1 до 7");  
 }
-
-if (x==1) Console.WriteLine("ПОНЕДЕЛЬНИК");
-if (x==2) Console.WriteLine("ВТОРНИК");
-if (x==3) Console.WriteLine("СРЕДА");
-if (x==4) Console.WriteLine("ЧЕТВЕРГ");
-if (x==5) Console.WriteLine("ПЯТНИЦА");
-if (x==6) Console.WriteLine("СУББОТА");
-if (x==7) Console.WriteLine("ВОСКРЕСЕНЬЕ");
-
+else if (x==1)
+{ 
+    Console.WriteLine("ПОНЕДЕЛЬНИК");
+}
+else if (x==2)
+{
+     Console.WriteLine("ВТОРНИК");
+}
+else if (x==3) 
+{
+    Console.WriteLine("СРЕДА");
+}
+else if (x==4)
+{
+     Console.WriteLine("ЧЕТВЕРГ");
+}
+else if (x==5)
+{
+     Console.WriteLine("ПЯТНИЦА");
+}
+else if (x==6)
+{
+    Console.WriteLine("СУББОТА");
+}
+else if (x==7)
+{
+     Console.WriteLine("ВОСКРЕСЕНЬЕ");
+}
 
 
 
