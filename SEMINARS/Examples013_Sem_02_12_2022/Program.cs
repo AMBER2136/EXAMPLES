@@ -1,4 +1,9 @@
-﻿/*int a = new Random().Next(100,999);
+﻿
+string? a = Console.ReadLine();
+Console.WriteLine(a?[3]);
+
+
+/*int a = new Random().Next(100,999);
 int b = a%10; 
 int c = a/100;
 Console.WriteLine(a);
@@ -34,17 +39,17 @@ else
     Console.WriteLine("НЕ КРАТНО");
 }*/
 
-Console.WriteLine("ВВЕДИТЕ ПЕРВОЕ ЧИСЛО");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("ВВЕДИТЕ ВТОРОЕ ЧИСЛО");
-int b = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("ВВЕДИТЕ ПЕРВОЕ ЧИСЛО");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("ВВЕДИТЕ ВТОРОЕ ЧИСЛО");
+// int b = Convert.ToInt32(Console.ReadLine());
 
-if ((b == a * a) || (a == b * b))
-{
-    Console.WriteLine("ЯВЛЯЕТСЯ");
-}
-else
-    Console.WriteLine("НЕ ЯВЛЯЕТСЯ");
+// if ((b == a * a) || (a == b * b))
+// {
+//     Console.WriteLine("ЯВЛЯЕТСЯ");
+// }
+// else
+//     Console.WriteLine("НЕ ЯВЛЯЕТСЯ");
 
 
 /*Console.WriteLine("ВВЕДИТЕ ЦЕЛОЕ ЧИСЛО");
